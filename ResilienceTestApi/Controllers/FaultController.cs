@@ -21,5 +21,23 @@ namespace ResilienceTestApi.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Failure");
             }
         }
+
+        [HttpGet("timeout")]
+        public async Task GetTimeout()
+        {
+            await Task.Delay(Timeout.Infinite);
+        }
+
+        [HttpGet("unstable")]
+        public IActionResult GetUnstable()
+        {
+            // Skifter hvert 30. sekund baseret på uret
+            if (DateTime.Now.Second >= 30)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Unstable Failure (30-59s window)");
+            }
+            
+            return Ok("Unstable Success (0-29s window)");
+        }
     }
 }

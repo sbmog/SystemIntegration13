@@ -1,6 +1,0 @@
-@ResilientApi_HostAddress = http://localhost:5193
-
-GET {{ResilientApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

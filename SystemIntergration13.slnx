@@ -1,6 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Readme.md" />
+  </Folder>
   <Project Path="ResilienceTestApi/ResilienceTestApi.csproj" />
-  <Project Path="ResilientApi/ResilientApi.csproj" />
-  <Project Path="SystemIntergration13.AppHost/SystemIntergration13.AppHost.csproj" />
-  <Project Path="SystemIntergration13.ServiceDefaults/SystemIntergration13.ServiceDefaults.csproj" />
+  <Project Path="SystemIntergration13.AppHost/SystemIntegration13.AppHost.csproj" />
+  <Project Path="SystemIntergration13.ServiceDefaults/SystemIntegration13.ServiceDefaults.csproj" />
 </Solution>

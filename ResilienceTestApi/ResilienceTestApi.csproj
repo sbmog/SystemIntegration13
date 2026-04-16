@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SystemIntergration13.ServiceDefaults\SystemIntergration13.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\SystemIntergration13.ServiceDefaults\SystemIntegration13.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

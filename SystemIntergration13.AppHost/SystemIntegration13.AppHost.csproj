@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ResilienceTestApi\ResilienceTestApi.csproj" />
-    <ProjectReference Include="..\ResilientApi\ResilientApi.csproj" />
   </ItemGroup>
 
 </Project>
